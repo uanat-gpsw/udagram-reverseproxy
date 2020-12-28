@@ -6,10 +6,10 @@ metadata:
   name: udagram-reverseproxy-svc
 spec:
  ports:
-  - port: 8080
-    protocol: TCP
-    targetPort: 8080
+ - port: 8080
+   protocol: TCP
+   targetPort: 8080
  selector:
-  app: reverseproxy
-  sessionAffinity: None
-  type: ClusterIP
+  app: udagram-reverseproxy
+ sessionAffinity: None
+ type: ClusterIP
