@@ -15,7 +15,7 @@ spec:
         app: udagram-reverseproxy
     spec:
       containers:
-      - image: unnismi/udagram-reverseproxy
+      - image: unnismi/udagram-reverseproxy:latest
         name: udagram-reverseproxy
         imagePullPolicy: Always          
         resources:
